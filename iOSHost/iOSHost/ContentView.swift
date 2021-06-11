@@ -6,10 +6,17 @@
 //
 
 import SwiftUI
+import shared
 
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
+            .padding()
+        Text(Platform().platform)
+            .padding()
+        Text(Dice().version)
+            .padding()
+        Text("\(Dice().invoke(max: 6))")
             .padding()
     }
 }

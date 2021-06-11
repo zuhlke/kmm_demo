@@ -1,0 +1,16 @@
+PODS:
+  - shared (1.0)
+
+DEPENDENCIES:
+  - shared (from `/Users/quba/Repo/kmm_demo/module/shared/shared.podspec`)
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "/Users/quba/Repo/kmm_demo/module/shared/shared.podspec"
+
+SPEC CHECKSUMS:
+  shared: 66c7a5a0febfec44cc5707429dd0169c13dd2644
+
+PODFILE CHECKSUM: 42137243c8ae3a31f25fa1719cc2a7848d0e3076
+
+COCOAPODS: 1.9.3

@@ -12,6 +12,7 @@ class DiceTest {
     @Test
     fun testOptionD6() {
         val testSubject = Dice()
+        print(testSubject.version)
         val sides = 6
         val tests = TEST_COUNT
         val rolls = mutableMapOf<Int, Int>()
